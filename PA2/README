@@ -1,0 +1,22 @@
+Weipeng Cao
+Program Assignment 2
+
+Web Server
+
+Introduction
+
+In this assignment, a web server is developed and is able to handle the GET method sent from web browser and/or http programs, e.g. telnet.
+The connetion is established with TCP socket. The server spawns a thread to handle the event once the link is connected.The server gets 
+the string of the request and evaluates the method. The method GET is the only one implemented, and the associated data are sent to 
+the client. The error message is sent back to the client if the method sent is not GET. 
+The most complicate tasks in this assignment are to handle different methods, to predict the possible negative events that might
+crash the program, and to use the buffer sufficiently. 
+A Makefile is included and uses pthread to compile the program. 
+
+Build
+    In the web_server directory, run: make
+
+Run
+    ./web_server
+
+
