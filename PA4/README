@@ -1,0 +1,13 @@
+Weipeng Cao
+Program Assignment 4
+
+Introduction
+
+Build
+$ make
+
+Run
+$./proxyweb <port>
+or
+$./proxyweb <port> <timeout>
+
